@@ -1,31 +1,22 @@
 {
   "books": [
     {
-      "name": "The Last Thing He Told Me: A Novel",
-      "author": "Laura Dave",
-      "thumbnail": "https://m.media-amazon.com/images/P/1501171348.01._SCLZZZZZZZ_SX500_.jpg",
-      "price": 13.99,
-      "rating": 4,
+      "name": "Srikanta (শ্রীকান্ত)",
+      "author": "Sarat Chandra Chattopadhyay",
+      "thumbnail": "https://www.amarbooks.org/thumbs/1573737896.jpg",
+      "price": "8923",
+      "rating": "5",
       "featured": false,
       "id": 1
     },
     {
-      "name": "Eloquent JavaScript, 3rd Edition",
-      "author": "Marijn Haverbeke",
-      "thumbnail": "https://m.media-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
-      "price": 23.99,
-      "rating": 4,
+      "name": "ছোটদের মহাকাশ পরিচিটি",
+      "author": "মশিউর রহমান",
+      "thumbnail": "https://d1jpltibqvso3j.cloudfront.net/images/product/303000/302227/250X360/302227.JPG",
+      "price": "5000",
+      "rating": "3",
       "featured": true,
       "id": 2
-    },
-    {
-      "name": "Srikanta (শ্রীকান্ত)",
-      "author": "Sarat Chandra Chattopadhyay",
-      "thumbnail": "https://rukminim2.flixcart.com/image/850/1000/kll7bm80/regionalbooks/x/4/o/srikanta-prothom-khondo-original-imagyzdyzxj2nfhs.jpeg?q=20&crop=false",
-      "price": "999",
-      "rating": "5",
-      "featured": true,
-      "id": 3
     }
   ]
 }
