@@ -10,7 +10,7 @@ const reducer = (state = initialState.books, action) => {
             return [
                 ...state,
                 action.payload
-            ]
+            ];
 
         default:
             return state;

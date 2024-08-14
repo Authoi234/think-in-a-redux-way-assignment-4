@@ -1,22 +1,13 @@
 {
   "books": [
     {
-      "name": "Slow Horses (Deluxe Edition)",
-      "author": "Mick Herron",
-      "thumbnail": "https://m.media-amazon.com/images/I/51Ga5GuElyL._SX331_BO1,204,203,200_.jpg",
-      "price": 14,
-      "rating": 3,
-      "featured": false,
-      "id": 1
-    },
-    {
       "name": "The Last Thing He Told Me: A Novel",
       "author": "Laura Dave",
       "thumbnail": "https://m.media-amazon.com/images/P/1501171348.01._SCLZZZZZZZ_SX500_.jpg",
       "price": 13.99,
       "rating": 4,
       "featured": false,
-      "id": 2
+      "id": 1
     },
     {
       "name": "Eloquent JavaScript, 3rd Edition",
@@ -25,7 +16,7 @@
       "price": 23.99,
       "rating": 4,
       "featured": true,
-      "id": 3
+      "id": 2
     },
     {
       "name": "Srikanta (শ্রীকান্ত)",
@@ -34,25 +25,7 @@
       "price": "999",
       "rating": "5",
       "featured": true,
-      "id": 4
-    },
-    {
-      "name": "Pather Panchali (পথের পাঁচালী)",
-      "author": "Bibhutibhushan Bandyopadhyay",
-      "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/81voJKiZVQL._AC_UL210_SR210,210_.jpg",
-      "price": "192",
-      "rating": "4",
-      "featured": true,
-      "id": 5
-    },
-    {
-      "name": "Spit On The Devil",
-      "author": " Samantha Bernstein",
-      "thumbnail": "https://m.media-amazon.com/images/I/61luNsmYp9L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
-      "price": "344",
-      "rating": "3",
-      "featured": false,
-      "id": 6
+      "id": 3
     }
   ]
 }
