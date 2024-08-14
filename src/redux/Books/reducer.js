@@ -1,20 +1,17 @@
 import { ADDED, LOADED } from "./actionTypes";
 import initialState from "./initialState";
 
-const reducer = (state=initialState, action) => {
+const reducer = (state = initialState.books, action) => {
     switch (action.type) {
         case LOADED:
             return action.payload;
-    
+
         case ADDED:
-            return {
+            return [
                 ...state,
-                books: [
-                    ...state.books,
-                    action.payload
-                ]
-            };
-    
+                action.payload
+            ]
+
         default:
             return state;
     }

@@ -5,7 +5,7 @@ import Card from '../../Components/Card';
 import { useSelector } from 'react-redux';
 
 const MainSect = () => {
-    const books = useSelector(state => state.books);
+    const books = useSelector(state => state?.books);
 
     return (
         <main class="py-12 2xl:px-6">
@@ -20,7 +20,7 @@ const MainSect = () => {
                         </div>
                     </div>
                     <div class="lws-bookContainer">
-                        {books.map((book) => <Card book={book} key={book.id}></Card>)}
+                        { books ? books?.map((book) => <Card book={book} key={book.id}></Card>) : "No Products Found"}
                     </div>
                 </div>
                 <div>

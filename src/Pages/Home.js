@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import Header from './Header';
 import MainSect from './MainSect/MainSect';
 import '../CSS/MainStyle.css';
@@ -8,9 +8,9 @@ import { useDispatch } from 'react-redux';
 const Home = () => {
     const dispatch = useDispatch();
     
-    useState(() => {
+    useEffect(() => {
         dispatch(fetchBookss);
-    }, )
+    }, [dispatch])
 
     return (
         <div>

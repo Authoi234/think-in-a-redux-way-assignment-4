@@ -26,6 +26,33 @@
       "rating": 4,
       "featured": true,
       "id": 3
+    },
+    {
+      "name": "Srikanta (শ্রীকান্ত)",
+      "author": "Sarat Chandra Chattopadhyay",
+      "thumbnail": "https://rukminim2.flixcart.com/image/850/1000/kll7bm80/regionalbooks/x/4/o/srikanta-prothom-khondo-original-imagyzdyzxj2nfhs.jpeg?q=20&crop=false",
+      "price": "999",
+      "rating": "5",
+      "featured": true,
+      "id": 4
+    },
+    {
+      "name": "Pather Panchali (পথের পাঁচালী)",
+      "author": "Bibhutibhushan Bandyopadhyay",
+      "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/81voJKiZVQL._AC_UL210_SR210,210_.jpg",
+      "price": "192",
+      "rating": "4",
+      "featured": true,
+      "id": 5
+    },
+    {
+      "name": "Spit On The Devil",
+      "author": " Samantha Bernstein",
+      "thumbnail": "https://m.media-amazon.com/images/I/61luNsmYp9L._SR600%2C315_PIWhiteStrip%2CBottomLeft%2C0%2C35_SCLZZZZZZZ_FMpng_BG255%2C255%2C255.jpg",
+      "price": "344",
+      "rating": "3",
+      "featured": false,
+      "id": 6
     }
   ]
 }
