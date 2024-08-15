@@ -1,4 +1,4 @@
-import { ADDED, DELETED, LOADED } from "./actionTypes";
+import { ADDED, DELETED, LOADED, UPDATED } from "./actionTypes";
 import initialState from "./initialState";
 
 const reducer = (state = initialState.books, action) => {
@@ -14,6 +14,9 @@ const reducer = (state = initialState.books, action) => {
 
         case DELETED:
             return state.filter((singleBook) => singleBook.id !== action.payload);
+            
+        case UPDATED:
+            return state;
 
         default:
             return state;

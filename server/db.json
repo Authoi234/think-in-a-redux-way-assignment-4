@@ -8,6 +8,24 @@
       "rating": "4",
       "featured": false,
       "id": 3
+    },
+    {
+      "name": "test",
+      "author": "satt",
+      "thumbnail": "sdfadf",
+      "price": "34",
+      "rating": "4",
+      "featured": false,
+      "id": 4
+    },
+    {
+      "name": "The Grapes of Wrath",
+      "author": "Author",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg",
+      "price": "34",
+      "rating": "4",
+      "featured": true,
+      "id": 5
     }
   ]
 }

@@ -9,12 +9,19 @@ import deleteBooks from '../../redux/Books/thunk/deleteBooks';
 const MainSect = () => {
     const books = useSelector(state => state.books);
     const filters = useSelector((state) => state.filters);
-    const dispatch = useDispatch(); 
+    const dispatch = useDispatch();
+    const [isUpdateForm, setIsUpdateForm] = useState(false);
+    const [updateDataBook, setUpdateDataBook] = useState(null);
+
+    const handleEdit = (book) => {
+        setUpdateDataBook(book);
+        setIsUpdateForm(true);
+    }
 
     const handleDelete = (id) => {
         dispatch(deleteBooks(id));
     };
-    
+
     console.log(books)
     return (
         <main class="py-12 2xl:px-6">
@@ -34,13 +41,17 @@ const MainSect = () => {
                                         book={book}
                                         key={book.id}
                                         handleDelete={handleDelete}
+                                        handleEdit={handleEdit}
                                     ></Card>)
                             :
                             "No Products Found"}
                     </div>
                 </div>
                 <div>
-                    <Form></Form>
+                    <Form
+                        isUpdateForm={isUpdateForm}
+                        updateDataBook={updateDataBook}
+                    ></Form>
                 </div>
             </div>
         </main>
