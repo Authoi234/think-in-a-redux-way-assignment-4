@@ -1,22 +1,13 @@
 {
   "books": [
     {
-      "name": "Srikanta (শ্রীকান্ত)",
-      "author": "Sarat Chandra Chattopadhyay",
-      "thumbnail": "https://www.amarbooks.org/thumbs/1573737896.jpg",
-      "price": "8923",
-      "rating": "5",
+      "name": "How The Steel Was Tempered",
+      "author": "Nicolay Ostrovosky",
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1256980267i/860566.jpg",
+      "price": "435",
+      "rating": "4",
       "featured": false,
-      "id": 1
-    },
-    {
-      "name": "ছোটদের মহাকাশ পরিচিটি",
-      "author": "মশিউর রহমান",
-      "thumbnail": "https://d1jpltibqvso3j.cloudfront.net/images/product/303000/302227/250X360/302227.JPG",
-      "price": "5000",
-      "rating": "3",
-      "featured": true,
-      "id": 2
+      "id": 3
     }
   ]
 }

@@ -7,7 +7,7 @@ import FilterButtons from './FilterButtons';
 import deleteBooks from '../../redux/Books/thunk/deleteBooks';
 
 const MainSect = () => {
-    const books = useSelector(state => state?.books);
+    const books = useSelector(state => state.books);
     const filters = useSelector((state) => state.filters);
     const dispatch = useDispatch(); 
 

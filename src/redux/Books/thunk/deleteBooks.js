@@ -7,7 +7,7 @@ const deleteBooks = (bookId) => {
         });
         const book = await response.json();
         console.log(book);
-        dispatch(deleted(book.id));
+        dispatch(deleted(bookId));
     }
 }
 

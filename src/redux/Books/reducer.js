@@ -13,7 +13,7 @@ const reducer = (state = initialState.books, action) => {
             ];
 
         case DELETED:
-            return state.filter((book) => book.id !== action.payload);
+            return state.filter((singleBook) => singleBook.id !== action.payload);
 
         default:
             return state;
