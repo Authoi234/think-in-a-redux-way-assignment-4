@@ -16,16 +16,34 @@
       "price": "34",
       "rating": "4",
       "featured": false,
-      "id": 4
+      "id": 4,
+      "updatedBook": {
+        "name": "test",
+        "author": "satt2",
+        "thumbnail": "sdfadf",
+        "price": "34",
+        "rating": "4",
+        "featured": false,
+        "id": 4
+      }
     },
     {
       "name": "The Grapes of Wrath",
-      "author": "Author",
+      "author": "John Steinbeck",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/ad/The_Grapes_of_Wrath_%281939_1st_ed_cover%29.jpg",
       "price": "34",
       "rating": "4",
       "featured": true,
       "id": 5
+    },
+    {
+      "name": "rest",
+      "author": "best",
+      "thumbnail": "https://core-docs.s3.amazonaws.com/murray_county_central_schools_ar/article/image/large_66f00638-2227-4795-84cc-8cefe4e4fb75.png",
+      "price": "76",
+      "rating": "5",
+      "featured": false,
+      "id": 6
     }
   ]
 }

@@ -2,10 +2,8 @@
 import '../../CSS/MainStyle.css';
 import { useDispatch, useSelector } from 'react-redux';
 import addBooks from './../../redux/Books/thunk/addBooks';
-const Form = ({isUpdateForm, updateDataBook}) => {
-
-    console.log(isUpdateForm, updateDataBook)
-
+import updateBooks from '../../redux/Books/thunk/updateBooks';
+const Form = ({isUpdateForm, setIsUpdateForm, updateDataBook}) => {
     const dispatch = useDispatch();
     const books = useSelector(state => state.books);
 
@@ -41,6 +39,7 @@ const Form = ({isUpdateForm, updateDataBook}) => {
     };
 
     const handleUpdateSubmit = (event) => {
+        console.log('updateSubmit')
         event.preventDefault();
 
         const form = event.target;
@@ -59,10 +58,14 @@ const Form = ({isUpdateForm, updateDataBook}) => {
             price,
             rating,
             featured,
-            id: updateDataBook?.id
+            id: updateDataBook.id
         };
 
         console.log(updatedBook);
+        dispatch(updateBooks(updatedBook, updateDataBook.id))
+        setIsUpdateForm(false);
+        form.reset();
+
     };
 
     return (

@@ -14,9 +14,17 @@ const reducer = (state = initialState.books, action) => {
 
         case DELETED:
             return state.filter((singleBook) => singleBook.id !== action.payload);
-            
+
         case UPDATED:
-            return state;
+            return state.map(book => {
+                if (book.id !== action.payload.id) {
+                    return book;
+                }
+                return {
+                    ...book,
+                    ...action.payload
+                }
+            });
 
         default:
             return state;

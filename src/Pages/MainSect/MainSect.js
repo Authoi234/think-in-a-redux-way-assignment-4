@@ -51,6 +51,7 @@ const MainSect = () => {
                     <Form
                         isUpdateForm={isUpdateForm}
                         updateDataBook={updateDataBook}
+                        setIsUpdateForm={setIsUpdateForm}
                     ></Form>
                 </div>
             </div>
