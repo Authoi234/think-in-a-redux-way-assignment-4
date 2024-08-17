@@ -6,7 +6,6 @@ const deleteBooks = (bookId) => {
             method: 'DELETE'
         });
         const book = await response.json();
-        console.log(book);
         dispatch(deleted(bookId));
     }
 }

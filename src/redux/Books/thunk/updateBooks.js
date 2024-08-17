@@ -2,7 +2,6 @@ import { updated } from "../actions";
 
 const updateBooks = (updatedBook, id) => {
     return async (dispatch, getState) => {
-        console.log('thunk called')
         const response = await fetch(`http://localhost:9000/books/${id}`, {
             method: 'PATCH',
             body: JSON.stringify({

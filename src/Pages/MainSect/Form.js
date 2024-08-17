@@ -39,7 +39,6 @@ const Form = ({isUpdateForm, setIsUpdateForm, updateDataBook}) => {
     };
 
     const handleUpdateSubmit = (event) => {
-        console.log('updateSubmit')
         event.preventDefault();
 
         const form = event.target;
@@ -61,7 +60,6 @@ const Form = ({isUpdateForm, setIsUpdateForm, updateDataBook}) => {
             id: updateDataBook.id
         };
 
-        console.log(updatedBook);
         dispatch(updateBooks(updatedBook, updateDataBook.id))
         setIsUpdateForm(false);
         form.reset();
